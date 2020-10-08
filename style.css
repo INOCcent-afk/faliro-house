@@ -1,0 +1,331 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url("images/001.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+.logo {
+  cursor: pointer;
+}
+.hamburgerButton {
+  cursor: pointer;
+}
+.header-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 2%;
+}
+nav {
+  display: none;
+}
+@media (min-width: 1200px) {
+  .hamburgerButton {
+    display: none;
+  }
+  .logo img {
+    width: 180px;
+    height: auto;
+  }
+  nav {
+    display: block;
+  }
+  .nav_Links {
+    display: flex;
+    list-style: none;
+  }
+  .nav_Links li a {
+    color: white;
+    padding: 22px 14px;
+    font-size: 12.5px;
+    font-family: "Playfair Display", serif;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+}
+/* first-content */
+.first-content {
+  background-color: #0a1622;
+  color: #faf8f1;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+}
+.first-content p {
+  padding: 120px 15% 30px 15%;
+}
+.first-content-btn {
+  padding: 70px 0px 120px 0px;
+}
+.first-content-btn button {
+  border: 1px solid #faf8f1;
+  padding: 22px 35px;
+  background: transparent;
+  color: #faf8f1;
+  border-radius: 50px;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+@media (min-width: 778px) {
+  .first-content {
+    height: 100vh;
+    font-size: 45px;
+  }
+  .first-content-btn button {
+    padding: 30px 55px;
+    font-size: 16px;
+  }
+}
+@media (min-width: 1493px) {
+  .first-content {
+    height: 130vh;
+    font-size: 70px;
+  }
+}
+/* img-hero */
+.img-hero {
+  background-image: url("images/4429322.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 440px;
+}
+.img-hero h1 {
+  display: none;
+}
+@media (min-width: 600px) {
+  .img-hero {
+    height: 100vh;
+  }
+}
+/* second-content */
+.second-content {
+  font-family: "Playfair Display", serif;
+  background-image: url("images/attica.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  color: #0a1622;
+  font-size: 22px;
+}
+.second-content-header {
+  padding: 40px 5% 0px 5%;
+}
+.second-content-content {
+  padding: 10px 5% 10px 5%;
+}
+.second-content-btn {
+  padding: 30px 5% 60px 5%;
+}
+.second-content-btn button {
+  border: 1px solid #0a1622;
+  padding: 25px 45px;
+  background: transparent;
+  color: #0a1622;
+  border-radius: 50px;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+@media (min-width: 600px) {
+  .second-content {
+    height: 80vh;
+    font-size: 50px;
+  }
+  .second-content-btn button {
+    font-size: 16px;
+  }
+}
+/* second-img-hero */
+.second-img-hero {
+  background-image: url("images/home.locations.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+.second-img-hero h1 {
+  display: none;
+}
+@media (min-width: 600px) {
+  .second-img-hero {
+    height: 100vh;
+  }
+}
+/* third-content */
+.third-content {
+  font-family: "Playfair Display", serif;
+  background-image: url("images/chalkidiki.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  color: #0a1622;
+  font-size: 22px;
+}
+.third-content-header {
+  padding: 40px 5% 0px 5%;
+}
+.third-content-content {
+  padding: 10px 5% 10px 5%;
+}
+.third-content-btn {
+  padding: 30px 5% 60px 5%;
+}
+.third-content-btn button {
+  border: 1px solid #0a1622;
+  padding: 25px 45px;
+  background: transparent;
+  color: #0a1622;
+  border-radius: 50px;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+@media (min-width: 600px) {
+  .third-content {
+    height: 80vh;
+    font-size: 45px;
+  }
+  .third-content-btn button {
+    font-size: 16px;
+  }
+}
+/* fourth-content */
+.fourth-content {
+  background-color: #0a1622;
+  color: #faf8f1;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 22px;
+  height: 50vh;
+  margin-top: 70px;
+}
+.fourth-content p {
+  padding: 10px 10%;
+}
+.p {
+  padding: 30px 0px;
+}
+@media (min-width: 373px) {
+  .fourth-content {
+    height: 45vh;
+  }
+}
+@media (min-width: 570px) {
+  .fourth-content {
+    height: 40vh;
+  }
+}
+@media (min-width: 778px) {
+  .fourth-content {
+    height: 80vh;
+    font-size: 45px;
+  }
+  .p {
+    padding: 70px 0px;
+  }
+}
+@media (min-width: 790px) {
+  .p {
+    padding: 80px 0px;
+  }
+}
+
+/* third-img-hero */
+.third-img-hero {
+  background-image: url("images/rename.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+}
+.third-img-hero h1 {
+  display: none;
+}
+@media (min-width: 700px) {
+  .third-img-hero {
+    height: 80vh;
+  }
+}
+@media (min-width: 1000px) {
+  .third-img-hero {
+    height: 100vh;
+  }
+}
+/* footer */
+footer {
+  height: 400px;
+  color: #0b2035;
+  font-family: "Playfair Display", serif;
+}
+.footer-email {
+  padding: 50px 5% 30px 5%;
+  font-size: 20px;
+}
+
+.footer-privacy {
+  font-size: 25px;
+  padding: 10px 5%;
+}
+
+.footer-copyright {
+  padding: 10px 5%;
+  font-size: 25px;
+}
+
+.footer-dev {
+  padding: 10px 5% 50px 5%;
+  font-size: 18px;
+}
+@media (min-width: 1000px) {
+  .flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+  .footer-email {
+    padding: 0;
+    padding-top: 25px;
+    font-size: 20px;
+  }
+  .footer-privacy {
+    padding: 0;
+    font-size: 25px;
+    padding-top: 20px;
+  }
+
+  .footer-copyright {
+    padding: 0;
+    padding-top: 20px;
+    font-size: 25px;
+  }
+  .footer-dev {
+    padding: 100px 10% 50px 13%;
+  }
+}
+@media (min-width: 1500px) {
+  .footer-dev {
+    padding: 100px 10% 50px 15%;
+  }
+}
+@media (min-width: 1700px) {
+  .footer-dev {
+    padding: 100px 10% 50px 17%;
+  }
+}
